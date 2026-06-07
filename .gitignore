@@ -1,0 +1,49 @@
+# Model output folders
+pubmedqa_gptneo_lora/
+pubmedqa_lora/
+pubmedqa_lora_adapter/
+pubmedqa_lora_full/
+pubmedqa_gptneo_lora_full/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Conda / virtualenv
+.venv/
+venv/
+env/
+
+# HuggingFace / model weights
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+*.h5
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Logs & outputs
+*.log
+logs/
+runs/
+wandb/
